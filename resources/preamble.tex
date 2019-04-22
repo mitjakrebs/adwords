@@ -1,0 +1,37 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[english]{babel}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\usepackage[noend,algoruled,noline,english]{algorithm2e}
+
+\SetKw{Continue}{continue}
+\SetKwProg{When}{when}{:}{end}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,decorations.pathreplacing}
+
+\usepackage{xcolor}
+
+\usepackage[normalem]{ulem}
+
+\usepackage{hyperref}
+
+\usetheme{Antibes}
+
+\beamerdefaultoverlayspecification{<+->}
+
+\setbeamercolor{math text}{fg=violet}
+\setbeamercolor{math text display}{fg=violet}
+
+\def\blueellipse{(1.75,-0.25) ellipse (3cm and 1.8cm) node {\small{Adwords with small bids}}}
+\def\greenellipse{(-2,-0.5) ellipse (2cm and 1.2cm) (-2,-0.5) ellipse (2cm and 1.2cm) node[yshift=0.6cm] {\small{Online $b$-Matching}}}
+\def\orangeellipse{(0,0) ellipse (5cm and 3cm) node[yshift=2.1cm] {\small{Adwords with arbitrary bids}}}
+\def\redellipse{(-2.25,-0.75) ellipse (1cm and 0.6cm) node {\small{Online Bipartite Matching}}}
+\def\violetellipse{(-1.75,-0.25) ellipse (3cm and 1.8cm) node[yshift=1.2cm] {\small{Adwords with equal bids}}}
